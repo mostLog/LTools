@@ -1,0 +1,15 @@
+{
+	"pluginName": "LTools",
+	"description": "搜集小工具整合",
+	"main": "index.html",
+	"version": "0.0.1",
+	"author": "mostLog",
+	"preload": "preload.js",
+	"logo": "logo.png",
+	"features": [
+	    {
+	        "code": "LTools",
+	        "cmds":["LTools", "lyx"]
+	    }
+	]
+}
