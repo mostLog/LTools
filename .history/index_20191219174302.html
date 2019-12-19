@@ -9,7 +9,6 @@
 
 <body>
 	<div id="app">
-
 		<el-button type="info" v-for="item in toolData.items" v-on:click="openUrl(item.url)">{{item.name}}</el-button>
 	</div>
 	<!-- 先引入 Vue -->
@@ -32,6 +31,10 @@
 						{
 							name: "文件卸载工具(IObitUninstaller)",
 							url: "http://118.25.19.145:9410/applications/iobituninstaller/L.DevTools.IObitUninstaller.application"
+						},
+						{
+							name: "EFProfiler",
+							url: "http://118.25.19.145:9410/applications/l_efProfiler/L.DevTools.EFProfiler.application"
 						}
 					]
 				}
